@@ -24,10 +24,10 @@ def load_sql_file(filepath, db_params):
 
 # Parâmetros de conexão
 db_params = {
-    'host': 'dpg-ct0u3n9u0jms73c9u440-a.oregon-postgres.render.com',
-    'database': 'teste_db_dxjw',
-    'user': 'teste_db_dxjw_user',
-    'password': '5D3dlZvNmE0fbVUKdmC1F88CbT5FnkRs'
+    'host': 'dpg-d04d03idbo4c73eg7tk0-a.oregon-postgres.render.com',
+    'database': 'devops_bd',
+    'user': 'devops_bd_user',
+    'password': 'XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL'
 }
 
 # Caminho para o arquivo SQL
