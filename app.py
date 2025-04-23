@@ -43,7 +43,7 @@ def main_rote():
     #conn.close()
 
 
-    return "Atualizando meu servidor Flask!"
+    return "Atualizando meu servidor Flask para os alunos de DevOps do Senac EAD!"
 
 
 @app.route('/persons', methods=['POST'])
