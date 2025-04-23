@@ -9,12 +9,13 @@ app = Flask(__name__)
 # Crie uma métrica de exemplo (contador de requisições)
 REQUEST_COUNT = Counter('http_requests_total', 'Total de requisições HTTP', ['method', 'endpoint'])
 
+
 def get_db_connection():
     conn = psycopg2.connect(
         dbname='devops_bd', 
         user='devops_bd_user', 
         password='XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL', 
-       host='dpg-d04d03idbo4c73eg7tk0-a.oregon-postgres.render.com'
+        host='dpg-d04d03idbo4c73eg7tk0-a'
     )
     return conn
 
