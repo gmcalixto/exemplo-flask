@@ -5,15 +5,16 @@ from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
 app = Flask(__name__)
 
+
 # Crie uma métrica de exemplo (contador de requisições)
 REQUEST_COUNT = Counter('http_requests_total', 'Total de requisições HTTP', ['method', 'endpoint'])
 
 def get_db_connection():
     conn = psycopg2.connect(
-        dbname='teste_db_dxjw', 
-        user='teste_db_dxjw_user', 
-        password='5D3dlZvNmE0fbVUKdmC1F88CbT5FnkRs', 
-       host='dpg-ct0u3n9u0jms73c9u440-a.oregon-postgres.render.com'
+        dbname='devops_bd', 
+        user='devops_bd_user', 
+        password='XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL', 
+       host='dpg-d04d03idbo4c73eg7tk0-a.oregon-postgres.render.com'
     )
     return conn
 
