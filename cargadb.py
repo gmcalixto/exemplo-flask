@@ -24,11 +24,14 @@ def load_sql_file(filepath, db_params):
 
 # Parâmetros de conexão
 db_params = {
-    'host': 'dpg-d04d03idbo4c73eg7tk0-a.oregon-postgres.render.com',
-    'database': 'devops_bd',
-    'user': 'devops_bd_user',
-    'password': 'XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL'
+    'host': 'dpg-d0q74egdl3ps73bd11sg-a.oregon-postgres.render.com',
+    'database': 'exemplo_db',
+    'user': 'exemplo_db_user',
+    'password': 'ea9Eb3aH8cCWL8rKqRPRQyOGlQjmWcrE'
 }
+
+
+
 
 # Caminho para o arquivo SQL
 filepath = 'persons.sql'

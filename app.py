@@ -12,10 +12,10 @@ REQUEST_COUNT = Counter('http_requests_total', 'Total de requisições HTTP', ['
 
 def get_db_connection():
     conn = psycopg2.connect(
-        dbname='devops_bd', 
-        user='devops_bd_user', 
+        dbname='exemplo_db', 
+        user='exemplo_db_user', 
         password='XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL', 
-        host='dpg-d04d03idbo4c73eg7tk0-a'
+        host='dpg-d0q74egdl3ps73bd11sg-a'
     )
     return conn
 
