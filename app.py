@@ -14,10 +14,11 @@ def get_db_connection():
     conn = psycopg2.connect(
         dbname='exemplo_db', 
         user='exemplo_db_user', 
-        password='XKeddIJ0taZCkQUmTIigsQK5UhqqkFhL', 
+        password='ea9Eb3aH8cCWL8rKqRPRQyOGlQjmWcrE', 
         host='dpg-d0q74egdl3ps73bd11sg-a'
     )
     return conn
+
 
 # Middleware para contar requisições
 @app.before_request
